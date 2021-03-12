@@ -10,8 +10,8 @@ import Header from "./components/Header";
 export default {
   name: "App",
   components: {
-    Header,
-  },
+    Header
+  }
 };
 </script>
 
@@ -34,6 +34,6 @@ export default {
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: rgb(154, 178, 197);
 }
 </style>
